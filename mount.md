@@ -17,7 +17,7 @@ In the last step, mount the drive to the chosen directory
 e.g. `sudo mount /dev/sdb1 /media/new_directory`
 
 If special permissions are necessary to write on the drive, the command is like this
-`sudo mount -o uid=$(id -u),gid=$(id -g) /dev/sd_[number] /media/dir
+`sudo mount -o uid=$(id -u),gid=$(id -g) /dev/sd_[number] /media/dir`
 
 ## Unmount drive
 ### Unmount drive
